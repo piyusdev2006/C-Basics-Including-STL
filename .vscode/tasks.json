@@ -1,7 +1,8 @@
 {
     "tasks": [
         {
-            "type": "cppbuild",
+
+            "type": "process",
             "label": "C/C++: g++.exe build active file",
             "command": "C:\\MinGW\\bin\\g++.exe",
             "args": [
@@ -15,7 +16,7 @@
                 "cwd": "${fileDirname}"
             },
             "problemMatcher": [
-                "$gcc"
+                "$msCompile"
             ],
             "group": {
                 "kind": "build",
